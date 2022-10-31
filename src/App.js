@@ -7,7 +7,6 @@ import {Routes, route, Route, Link} from 'react-router-dom';
 
 function App() {
   return (
-    
     <div className="App">
       
       |<Routes>
