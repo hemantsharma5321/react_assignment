@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.comcontainer{
+  border: 2px solid black;
+  margin: 2%;
+  padding: 5px;
 }
