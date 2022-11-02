@@ -6,6 +6,8 @@ const Home=()=>{
             <Link to="/Page1">Jsx-001</Link>
             <Link to="/Page2">Jsx-002</Link>
             <Link to="/componentAssign">Component-001</Link>
+            <Link to="/props-002">Props-001</Link>
+            <Link to="/props-001">Props-002</Link>
         </div>
     )
 }
