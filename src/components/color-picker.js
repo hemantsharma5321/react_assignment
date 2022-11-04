@@ -10,7 +10,7 @@ const ColorPicker = (props) => {
   return (
     <div className="inline">
       <div style={style}></div>
-      <div style={{marginLeft:"10px"}}><span>#007623</span> <br/> <span Style={{color:props.color}}>{props.color}</span></div>
+      <div style={{marginLeft:"10px"}}><span>#007623</span> <br/> <span style={{color:props.color}}>{props.color}</span></div>
     </div>
   );
 };

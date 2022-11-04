@@ -52,3 +52,21 @@ a{
   box-shadow: 2px 2px;
 
 }
+.cardContainer{
+  background-color: #282c34;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(34, 33, 33);
+  margin-bottom: 50px;
+  border-radius: 10px;
+  color: white;
+}

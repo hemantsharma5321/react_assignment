@@ -8,6 +8,7 @@ import {Routes, Route,} from 'react-router-dom';
 import Props from "./pages/Props-002";
 import Props1 from "./pages/Props-001";
 
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,9 @@ function App() {
         <Route path="/componentAssign" element={<ComponentAssign/>}></Route>
         <Route path="/Props-002" element={<Props/>}></Route>
         <Route path="/props-001" element={<Props1/>}></Route>
+       {/* <Route path="/States-001" element={<States/>}></Route> */}
       </Routes>
+     
     </div>
   );
 }
