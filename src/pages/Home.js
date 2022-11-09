@@ -8,7 +8,7 @@ const Home=()=>{
             <Link to="/componentAssign">Component-001</Link>
             <Link to="/props-002">Props-001</Link>
             <Link to="/props-001">Props-002</Link>
-           {/* <Link to="/States">States-001</Link> */}
+            <Link to="/States-001">States-001</Link>
         </div>
     )
 }

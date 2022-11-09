@@ -8,7 +8,7 @@ const MovieCard = (props) => {
       
       <div style={{width:"60%"}}>
        <img src={ramsetu} alt=" v" style={{width:"100px" , height:"150px", float:"left", margin:"5px"}}></img>
-       {console.log(eval(props.img))}
+       
        
         <h4>{props.movie.Title}</h4>
         <p>{props.movie.Year +", "+ props.movie.Director}</p>

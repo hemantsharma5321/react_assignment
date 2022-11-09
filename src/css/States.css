@@ -1,0 +1,30 @@
+.light {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+.light h2,
+.dark h2 {
+  color: rgb(245, 74, 74);
+}
+.dark h1{
+    color: white;
+}
+.dark p {
+  color: white;
+}
+.dark {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+button {
+  background-color: coral;
+ position: relative;
+ top: -50px;
+ right:-250px;
+}

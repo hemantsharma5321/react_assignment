@@ -7,6 +7,7 @@ import ComponentAssign from "./pages/componentAssign";
 import {Routes, Route,} from 'react-router-dom';
 import Props from "./pages/Props-002";
 import Props1 from "./pages/Props-001";
+import States001 from "./pages/States-001";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route path="/componentAssign" element={<ComponentAssign/>}></Route>
         <Route path="/Props-002" element={<Props/>}></Route>
         <Route path="/props-001" element={<Props1/>}></Route>
-       {/* <Route path="/States-001" element={<States/>}></Route> */}
+       <Route path="/States-001" element={<States001/>}></Route>
       </Routes>
      
     </div>
