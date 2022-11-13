@@ -9,6 +9,8 @@ const Home=()=>{
             <Link to="/props-002">Props-001</Link>
             <Link to="/props-001">Props-002</Link>
             <Link to="/States-001">States-001</Link>
+            <Link to="/States-002">States-002</Link>
+            <Link to="/States-003">States-003</Link>
         </div>
     )
 }

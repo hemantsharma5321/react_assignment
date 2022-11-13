@@ -8,6 +8,8 @@ import {Routes, Route,} from 'react-router-dom';
 import Props from "./pages/Props-002";
 import Props1 from "./pages/Props-001";
 import States001 from "./pages/States-001";
+import States2 from "./pages/States-002";
+import PasswordGenerator from "./pages/passwordGenerator";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path="/Props-002" element={<Props/>}></Route>
         <Route path="/props-001" element={<Props1/>}></Route>
        <Route path="/States-001" element={<States001/>}></Route>
+       <Route path="/States-002" element={<States2/>}></Route>
+       <Route path="/States-003" element={<PasswordGenerator/>}></Route>
       </Routes>
      
     </div>
