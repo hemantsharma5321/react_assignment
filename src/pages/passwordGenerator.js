@@ -7,7 +7,7 @@ const PasswordGenerator=()=>{
     const schrs="~`!@#$%^&*(){}_+=:><?/|";
 
     const [islowercase, setIslowercase]=useState(0);
-    const [isUppercase, setIsupercase]=useState(0);
+    const [isUppercase, setIsupercase]=useState(1);
     const [isnumbers, setIsnumbers]=useState(0);
     const [issymbols, setIssymbols]=useState(0);
     const [passwordcount, setpasswordcunt]=useState(0);
@@ -17,6 +17,7 @@ const PasswordGenerator=()=>{
         let matchChars=""
        let result="";
        let length=passwordcount ? passwordcount : 8;
+       
        if(islowercase){
         matchChars+=lchar;
        }
